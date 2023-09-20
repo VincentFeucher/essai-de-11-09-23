@@ -1,0 +1,70 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+h2{
+    margin: 20px;
+}
+
+.CreaWeb{
+    margin-bottom: 10px;
+}
+
+li{
+    padding: 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 80px;
+}
+
+/* Tableau des prix */
+
+table{
+    margin: auto;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+
+thead th:nth-child(1){
+    width: 40%;
+}
+
+thead th:nth-child(2){
+    width: 40%;
+}
+
+thead th:nth-child(3){
+    width: 20%;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+tbody td {
+    text-align: center;
+}
+
+thead{
+    background-color: var(--orangeCI);
+}
+
+thead th{
+    color: black;
+    font-weight: bold;
+}

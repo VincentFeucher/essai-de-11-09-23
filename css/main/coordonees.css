@@ -1,0 +1,15 @@
+.mainCoor {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div p {
+    margin: 10px;
+}
+
+.mention{
+    margin-top: 50px;
+    font-size: small;
+}

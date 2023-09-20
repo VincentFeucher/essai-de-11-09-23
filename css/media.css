@@ -1,0 +1,35 @@
+
+/* écran classique */
+
+@media (max-width: 1920px) {
+    body {
+        width: 80%;
+    }
+
+    
+}
+
+/* Portable */
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .sponsoGlab {
+        height: 50px;
+    }
+
+    .mainCoor{
+        flex-direction: column;
+    }
+}
+
